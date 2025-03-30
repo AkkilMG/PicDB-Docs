@@ -53,15 +53,20 @@ export default function DocsHeader() {
                             </svg>
                             <span className="flex-1 ms-3 whitespace-nowrap">Python</span>
                         </span>
-                        <ul className="pl-8 space-y-2">
+                        <ul className="pt-4 pl-4 space-y-2">
                             <li>
                                 <a href="/python/installation" className="flex items-center p-2 text-gray-700 rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 group">
                                     <span className="flex-1 ms-3 whitespace-nowrap">Installation</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/python/uplaod" className="flex items-center p-2 text-gray-700 rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                                    <span className="flex-1 ms-3 whitespace-nowrap">Upload</span>
+                                <a href="/python/upload-local" className="flex items-center p-2 text-gray-700 rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                    <span className="flex-1 ms-3 whitespace-nowrap">Upload Local</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/python/upload-url" className="flex items-center p-2 text-gray-700 rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                    <span className="flex-1 ms-3 whitespace-nowrap">Upload Url</span>
                                 </a>
                             </li>
                             <li>

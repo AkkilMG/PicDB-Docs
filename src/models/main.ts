@@ -20,3 +20,13 @@ export interface MainTemplateProps {
     }];
     responseBody: string;
 }
+
+
+
+export interface APIMainTemplateProps {
+    path: string;
+    heading: string;
+    description: string;
+    code: string;
+    responseBody: string;
+}
