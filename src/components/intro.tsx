@@ -21,7 +21,7 @@ export default function Intro() {
                     <button onClick={() => window.open('/upload', '_self')} className="bg-gray-700 px-4 sm:px-6 py-4 rounded-lg text-left text-white font-semibold flex items-center">
                         <span className="mr-2">📜</span> API Reference
                     </button>
-                    <button onClick={() => window.open('/installation', '_self')} className="bg-gray-700 px-4 sm:px-6 py-4 rounded-lg text-left text-white font-semibold flex items-center">
+                    <button onClick={() => window.open('/python/installation', '_self')} className="bg-gray-700 px-4 sm:px-6 py-4 rounded-lg text-left text-white font-semibold flex items-center">
                         <span className="mr-2">⚡</span> Python Package
                     </button>
                     <button onClick={() => window.open('mailto:support@avianintek.com', '_blank')} className="bg-gray-700 px-4 sm:px-6 py-4 rounded-lg text-left text-white font-semibold flex items-center">
